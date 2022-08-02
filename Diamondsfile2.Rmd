@@ -1,0 +1,13 @@
+---
+title: "Diamondsfile2"
+author: "Huma Meer and Rebecca Rogers"
+date: "2022-08-02"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
